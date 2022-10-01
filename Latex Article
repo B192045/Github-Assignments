@@ -1,0 +1,169 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+\usepackage{mathtools}
+\title{Leaning Latex}
+\author{P.Aishwarya}
+\date{30-07-2022}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{graphicx}
+\begin{document}
+
+\maketitle
+\tableofcontents
+\section{Introduction to Latex}
+
+
+\subsection{How to install Latex}
+\subsubsection{in windows}
+\paragraph{first install MikTex}
+\subparagraph{then install any editor like text studio, tex maker, textlive....}
+\subsubsection{in Linux}
+\paragraph{in ubuntu sudo apt-get install kile}
+
+\section{What is the purpose of LaTeX?}
+LaTeX is a tool that can be used to produce professional quality
+documents that employ symbolic representation, charts and notation for
+quantitative and mathematical ideas and concepts. It can also be used to
+compose high quality presentations in power points, publish journal papers
+and books.
+\section{What are its benefits?}
+
+
+For the working mathematician, engineer or scientist, LaTeX has a library
+of commands which relay standard symbolic and notational conventions
+which allow for ease in representing and conveying mathematical
+constructs in a clear and easy manner.
+
+\section{ Text fonts Representations}
+\begin{tiny}
+ HELLO
+\end{tiny} \\
+\newline
+\begin{small}
+ HELLO
+\end{small} \\
+\\
+\begin{large}
+ HELLO
+\end{large} \\
+\begin{Large}
+ HELLO
+\end{Large}
+\\
+\begin{LARGE}
+ Welcome to RGUKT
+ \end{LARGE}
+\\
+\begin{huge}
+ HELLO
+\end{huge}
+\\
+\begin{Huge}
+ HELLO
+\end{Huge}
+\\
+\textit{HELLO}
+\\
+\textbf{HELLO}
+\\
+\textsc{HELLO}\ref{table1}
+\\
+\texttt{HELLO}
+\\
+\underline{HELLO}
+{\color{red}{Welcome}}
+\\
+
+{\color{black}{Welcome}
+
+
+\pagebreak
+
+
+\huge{Welcome} \\
+\Large{Welcome}
+
+
+
+\section{Table representation}
+
+
+\begin{table}[h]
+\centering
+\caption{This is my First Table}
+\begin{tabular}{|l |l |l |}
+ \hline
+ S.no & Name & marks \\
+ \hline
+ 1 & Apoorva & 98 \\
+ \hline
+ 2 & Chanduu & 90 \\
+ \hline
+ 
+ 
+ 
+\end{tabular}
+\label{table1}
+\end{table}
+
+\section{Maths Equations}
+ $(a+b)^2=a^2+b^2+2ab$
+ 
+
+$(\frac{a}{b})^2=\frac{a^2}{b^2}$
+
+\section{Images Representation}
+\begin{figure}[h]
+\centering
+ \includegraphics[scale=0.5]{index.jpeg}
+ \caption{this is first image}
+\end{figure}
+
+\begin{equation}
+ (a+b)^2=a^2+b^2+2ab
+\end{equation}
+
+\begin{itemize}
+ \item First Elements
+ \item Second Elements
+\end{itemize}
+\begin{enumerate}
+ \item Third Elemene
+ \item Fourth Element
+\end{enumerate}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
